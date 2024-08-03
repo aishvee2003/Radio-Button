@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose your favourite beauty product:</h1>
+        <form id="beautyproductform">
+            <label class="radio-container">Foundation
+                <input type="radio" name="beauty" value="Foundation">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Concealer
+                <input type="radio" name="beauty" value="Concealer">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Kajal
+                <input type="radio" name="beauty" value="Kajal">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Blusher
+                <input type="radio" name="beauty" value="Blusher">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Lipstick
+                <input type="radio" name="beauty" value="Lipstick">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Eyeliner
+                <input type="radio" name="beauty" value="Eyeliner">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="radio-container">Eye shadow
+                <input type="radio" name="beauty" value="Eye shadow">
+                <span class="checkmark"></span>
+            </label>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="3.js"></script>
+    
+</body>
+</html>
